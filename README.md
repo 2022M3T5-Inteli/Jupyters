@@ -27,12 +27,10 @@ xxxxxxxxxxxxx
 
 ## 🛠 Estrutura de pastas
 |--> documentos<br>
-  | --> outros<br>
-    &emsp;| T(NUMERO_DA_TURMA)_G(NUMERO_DO_GRUPO)_V(VERSÃO)_Web_application_document.pdf<br>
-    &emsp;|T(NUMERO_DA_TURMA)_G(NUMERO_DO_GRUPO)_V(VERSÃO)_Web_application_document.docx<br>
+  | --> antigos<br>
+    &emsp;| T(5)_G(jupyters)_V(final)GIA.pdf<br>
+    &emsp;|T(5)_G(jupyters)_V(final)_GIA.docx<br>
 |--> notebooks <br>
-  &emsp;|--> frontend<br>
-  &emsp;|--> backend<br>
 | readme.md<br>
 | license.txt<br>
 
@@ -40,11 +38,9 @@ xxxxxxxxxxxxx
 
 <b>readme:</b> arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
-<b>documentos:</b> aqui estarão todos os documentos do projeto. Há também uma pasta denominada outros onde estão presentes aqueles documentos complementares ao web application document.
+<b>documentos:</b> aqui estarão todos os documentos do projeto. Há também uma pasta denominada 'antigos' onde estão presentes versões anteriores do documento. 
 
-<b>imagens:</b> imagens relacionadas ao projeto como um todo (por exemplo imagens do sistema, do grupo, logotipos e afins).
-
-<b>src:</b> nesta pasta encontra-se todo o código fonte do sistema (existem duas subpastas backend e frontend que contêm, respectivamente, o código do servidor e o código da página web).
+<b>notebooks:</b> nesta pasta encontra-se todos os notebooks Colab com o código inserido. 
 
 ## 💻 Configuração para desenvolvimento
 Aqui encontram-se todas as instruções necessárias para a instalação de todos os programas, bibliotecas e ferramentas imprescindíveis para a configuração do ambiente de desenvolvimento.
@@ -67,19 +63,19 @@ npm start
 
 ## 🗃 Histórico de lançamentos
 
-* 29/04/2022
-    * Primeira versão da aplicação web
-* 13/05/2022
-    * Segunda versão da aplicação web
-* 27/05/2022
-    * Terceira versão da aplicação web
-* 10/06/2022
-    * Quarta versão da aplicação web
-* 24/06/2022
-    * Versão final da aplicação web
+* 12/08/2022
+    * Primeira versão do modelo preditivo
+* 26/08/2022
+    * Segunda versão do modelo preditivo
+* 09/09/2022
+    * Terceira versão do modelo preditivo
+* 23/09/2022
+    * Quarta versão do modelo preditivo
+* 06/10/2022
+    * Versão final do modelo preditivo
 
 ## 📋 Licença/License
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">MODELO GIT INTELI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">Inteli, Arthur Fraige, Emanuel Costa, Gábrio Silva, Giovanna Rodrigues, Lívia Bonotto, Luana Parra, Rafael Katalan</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">MODELO GIT INTELI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">Inteli, Elisa Flemer, João Suarez, João Tourinho, Luana Parra, Raduan Muarrek, Raphael Lisboa, Vitor Moura</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
 
 ## 🎓 Referências
 Aqui estão as referências usadas no projeto:
