@@ -18,7 +18,7 @@
 - <a href="https://www.linkedin.com/in/vitor-moura-de-oliveira/">Vitor Moura	</a>
 
 ## 📝 Descrição
-A solução a ser desenvolvida é a construção de lógica para predição com inteligência artificial para a Rede Gazeta. 
+A solução a ser desenvolvida é a construção de lógica para predição com inteligência artificial em parceria com a Rede Gazeta. 
 <br><br>
 Desse modo, o objetivo da GIA é prever o resultado de audiência de determinada faixa horária da TV indicando as variáveis que mais tiverem peso para o modelo, e assim, criar ações mais assertivas para alavancar os novos produtos da TV, atingindo as áreas de marketing e programação da grade horária.
 <br><br>
