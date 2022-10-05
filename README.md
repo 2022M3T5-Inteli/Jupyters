@@ -18,11 +18,11 @@
 - <a href="https://www.linkedin.com/in/vitor-moura-de-oliveira/">Vitor Moura	</a>
 
 ## 📝 Descrição
-A solução a ser desenvolvida é a construção de lógica para predição com inteligência artificial em parceria com a Rede Gazeta. 
+A solução desenvolvida por alunos do segundo semestre do Instituto de Tecnologia e Liderança é a construção de lógica para predição com inteligência artificial em parceria com a Rede Gazeta, a GIA (Inteligência Artificial da Rede Gazeta). 
 <br><br>
-Desse modo, o objetivo da GIA é prever o resultado de audiência de determinada faixa horária da TV indicando as variáveis que mais tiverem peso para o modelo, e assim, criar ações mais assertivas para alavancar os novos produtos da TV, atingindo as áreas de marketing e programação da grade horária.
+Desse modo, o objetivo da GIA é prever o resultado de audiência de determinada faixa horária da TV indicando as variáveis que mais tiverem peso para o modelo. Assim, será possível criar ações mais assertivas para alavancar os novos produtos da TV, atingindo as áreas de marketing e programação da grade horária.
 <br><br>
-xxxxxxxxxxxxx
+Por fim, nós desenvolvemos uma aplicação web (site) para facilitar o uso da predição da audiência. 
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -64,15 +64,15 @@ npm start
 ## 🗃 Histórico de lançamentos
 
 * 12/08/2022
-    * Primeira versão do modelo preditivo
+    * Primeira versão do modelo preditivo - Entendimento do negócio; Entendimento dos dados
 * 26/08/2022
-    * Segunda versão do modelo preditivo
+    * Segunda versão do modelo preditivo - Documentação da feature engineering + personas e jornada do usuário; Feature engineering
 * 09/09/2022
-    * Terceira versão do modelo preditivo
+    * Terceira versão do modelo preditivo - Documentação dos resultados preliminares; Definição dos modelos e avaliação
 * 23/09/2022
-    * Quarta versão do modelo preditivo
+    * Quarta versão do modelo preditivo - Documentação dos resultados e comparações; Comparação de modelos
 * 06/10/2022
-    * Versão final do modelo preditivo
+    * Versão final do modelo preditivo - Conclusão da documentação; Modelo Final
 
 ## 📋 Licença/License
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">MODELO GIT INTELI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">Inteli, Elisa Flemer, João Suarez, João Tourinho, Luana Parra, Raduan Muarrek, Raphael Lisboa, Vitor Moura</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
