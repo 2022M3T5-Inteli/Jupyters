@@ -28,9 +28,8 @@ Por fim, nós desenvolvemos uma aplicação web (site) para facilitar o uso da p
 ## 🛠 Estrutura de pastas
 |--> documentos<br>
   | --> antigos<br>
-    &emsp;| T(5)_G(jupyters)_V(final)GIA.pdf<br>
-    &emsp;|T(5)_G(jupyters)_V(final)_GIA.docx<br>
 |--> notebooks <br>
+|--> Interface Gráfica <br>
 | readme.md<br>
 | license.txt<br>
 
@@ -40,11 +39,12 @@ Por fim, nós desenvolvemos uma aplicação web (site) para facilitar o uso da p
 
 <b>documentos:</b> aqui estarão todos os documentos do projeto. Há também uma pasta denominada 'antigos' onde estão presentes versões anteriores do documento. 
 
-<b>notebooks:</b> nesta pasta encontra-se todos os notebooks Colab com o código inserido. 
+<b>notebooks:</b> nesta pasta encontra-se todos os notebooks Colab com o código inserido. Elas estão divididas por Sprint e são todas executáveis e editáveis. Para utilizar os modelos finais, visite o Colab "Modelos Finais" e siga as instruções. Outra opção é rodar a interface gráfica localmente.
 
 ## 💻 Configuração para desenvolvimento
 Aqui encontram-se todas as instruções necessárias para a instalação de todos os programas, bibliotecas e ferramentas imprescindíveis para a configuração do ambiente de desenvolvimento.
 
+Basta baixar os notebooks e rodar todas as células, pois os imports necessários já estão contidos neles. Para rodar os notebooks em si, recomendamos instalar o VS Code ou abri-los no Google Colab, online.
 
 
 ## 🗃 Histórico de lançamentos
