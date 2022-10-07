@@ -1,0 +1,155 @@
+body * {
+    font: 15;
+    font-family: 'Poppins'; font-size: 22px;
+}
+
+.brand{
+    color:#2A4383;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.center{
+    margin: auto;
+}
+
+.btn-CTA{
+    background-color:#2A4383;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+}
+
+.input{
+    margin-bottom: 10px;
+}
+
+.form-card{
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+    filter: drop-shadow(.1rem .1rem .5rem rgba(90, 90, 90, 0.3));
+}
+
+.results-card{
+    width: 150px;
+    height: 150px;
+}
+
+.margin{
+    /* margin: 20px; */
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.col-height{
+    height: 100%;
+}
+
+.results{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.forms-text{
+    font-size: 15px;
+}
+
+.check-margin{
+    margin-top: 10px;
+}
+
+.a{
+    margin-left: 100px;
+}
+
+.pd{
+    padding: 30px;
+}
+
+.title{
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+/* From https://css.glass */
+.glass{
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+}
+
+#videoBG {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.details {
+    margin-left: 0
+
+}
+
+#result {
+    text-align: center;
+    font-size: 60px;
+    color: #2A4383;
+    font-weight: bold;
+}
+
+.type{
+    background-color:#2A4383;
+    color: white;
+    border-radius: 8px;
+    border-color: #2A4383;
+    font-size: 20px;
+
+    --bs-btn-color: #2A4383;
+    --bs-btn-border-color: #2A4383;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #2A4383;
+    --bs-btn-hover-border-color: #2A4383;
+    --bs-btn-focus-shadow-rgb: 108,117,125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #2A4383;
+    --bs-btn-active-border-color: #2A4383;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #2A4383;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #2A4383;
+    --bs-gradient: none;
+}
+
+.type:hover{
+    background-color:#3d5ba8;
+    color: white;
+    border-radius: 8px;
+    border-color: #2A4383;
+    font-size: 20px;
+}
+
+.type:focus{
+    background-color:#3d5ba8;
+    color: white;
+    border-radius: 8px;
+    border-color: #2A4383;
+    font-size: 20px;
+}
+

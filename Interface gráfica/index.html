@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" href="icon.png">
+    <title>GIA</title>
+
+</head>
+
+<body>
+    <video id="videoBG" autoplay muted loop>
+        <source src="BehindScenes.mp4" type="video/mp4">
+    </video>
+    <div class="container center">
+        <div class="row">
+            <div class="col-sm-5 margin form-card">
+                <h3 class="title">Dados do programa</h3>
+                <form>
+                    <div class="form-group pd">
+                        <label class="my-1 mr-2" for="categoria">Categoria</label>
+                        <div class="input">
+                            <select class="custom-select my-1 mr-sm-2" id="categoria">
+                                <option class="forms-text bold" selected>Escolha...</option>
+                                <option class="forms-text" value="Categoria_AUDITORIO">Auditório</option>
+                                <option class="forms-text" value="Categoria_CARROS E MOTORES">Carros e Motores</option>
+                                <option class="forms-text" value="Categoria_CULINARIO">Culinário</option>
+                                <option class="forms-text" value="Categoria_DEBATE">Debate</option>
+                                <option class="forms-text" value="Categoria_DOCUMENTARIO">Documentário</option>
+                                <option class="forms-text" value="Categoria_ENTREVISTA">Entrevista</option>
+                                <option class="forms-text" value="Categoria_ESPORTE">Esporte</option>
+                                <option class="forms-text" value="Categoria_FEMININO">Feminino</option>
+                                <option class="forms-text" value="Categoria_FILME">Filme</option>
+                                <option class="forms-text" value="Categoria_FUTEBOL">Futebol</option>
+                                <option class="forms-text" value="Categoria_GAME SHOW">Game Show</option>
+                                <option class="forms-text" value="Categoria_HUMORISTICO">Humorístico</option>
+                                <option class="forms-text" value="Categoria_JORNALISMO">Jornalismo</option>
+                                <option class="forms-text" value="Categoria_MINISSERIE">Minissérie</option>
+                                <option class="forms-text" value="Categoria_MUSICAL">Musical</option>
+                                <option class="forms-text" value="Categoria_REPORTAGEM">Reportagem</option>
+                                <option class="forms-text" value="Categoria_RURAL">Rural</option>
+                                <option class="forms-text" value="Categoria_SERIES">Séries</option>
+                                <option class="forms-text" value="Categoria_SHOW">Show</option>
+                            </select>
+                        </div>
+                        <label for="diaSemana">Dia da Semana</label>
+                        <div class="input">
+                            <select class="custom-select my-1 mr-sm-2" id="diaSemana">
+                                <option class="forms-text bold" disabled>Escolha...</option>
+                                <option class="forms-text" value=1>Segunda</option>
+                                <option class="forms-text" value=2>Terça</option>
+                                <option class="forms-text" value=3>Quarta</option>
+                                <option class="forms-text" value=4>Quinta</option>
+                                <option class="forms-text" value=5>Sexta</option>
+                                <option class="forms-text" value=6>Sábado</option>
+                                <option class="forms-text" value=7>Domingo</option>
+                            </select>
+                        </div>
+                        <span>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="hora">Dia</label>
+                                    <input type="number" class="form-control" id="diaMes">
+                                </div>
+                                <div class="col-6">
+                                    <label for="minuto">Mês</label>
+                                    <input type="number" class="form-control" id="mes">
+                                </div>
+                            </div>
+                        </span>
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="diaMes">Hora</label>
+                                <input type="number" class="form-control input" id="hora">
+                                <label for="duracao">Duração</label>
+                                <input type="number" class="form-control input" id="duracao">
+                            </div>
+                            <div class="col-6">
+                                <label for="diaMes">Minuto</label>
+                                <input type="number" class="form-control input" id="minuto">
+                                    Feriado
+                                <input class='form-check-input center' type="checkbox" value=1 id="feriado" style="display:block;margin-top:12px">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="center">
+                        <button type="button" id='enviar' class="btn btn-CTA bold">Calcular audiência</button>
+                    </div>
+                </form>
+            </div>
+           
+            <div class="col-sm margin">
+                <div class="form-card details" style="height: 88vh">
+                    <h3><strong>RAT (Total Domicílios)</strong></h3>
+                    <h3 style="margin-top: 40px" id='result'>0.00</h3>
+                    <h3 style="margin-top: 70px"><strong>De 5m em 5m</strong></h3>
+                    <div>
+                        <canvas id="plot"></canvas>
+                    </div>
+                </div>
+                <!--results-->
+            </div>
+            <!--col-4-->
+        </div>
+        <!--row-->
+        <div class='row' style="margin-top: 0">
+            <div class="form-card details">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-outline-secondary type" id='rat'>Rat</button>
+                    <button type="button" class="btn btn-outline-secondary type" id='shr'>Shr</button>
+                    <button type="button" class="btn btn-outline-secondary type" id='rch'>Rch</button>
+                </div>
+                
+                <!-- <span>
+                    <button class="type">Rat</button>
+                    <button class="type">Shr</button>
+                    <button class="type">Rch</button>
+                </span> -->
+                <table class='table' id="rat-tb" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">Taxa (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-rat">
+
+                    </tbody>
+                </table>
+                <table class='table' id='shr-tb' style="display: none;">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">Taxa (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-shr">
+
+                    </tbody>
+                </table>
+                <table class='table' id='rch-tb' style="display: none;">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">Taxa (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-rch">
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <!--container-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
